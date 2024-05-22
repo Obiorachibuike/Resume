@@ -1,0 +1,82 @@
+/* * {
+  margin: 0; 
+  padding: 0;
+} */
+body {
+  background-color: gainsboro;
+}
+.heading-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+  height: 160px;
+  margin-bottom: 50px;
+}
+.resume-cont {
+  background-color: white;
+  width: 80%;
+  padding: 30px;
+  margin: auto;
+}
+.title-cont {
+  display: flex;
+  justify-content: center;
+  height: 65px;
+  align-items: center;
+  border-top: 2px solid gainsboro;
+  border-bottom: 2px solid gainsboro;
+  margin-bottom: 70px;
+}
+.contact-title {
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+.contact-content span {
+  margin-left: 5px;
+}
+a {
+  color: blue;
+  font-size: 20px;
+}
+.contact-content {
+  margin-bottom: 5px;
+}
+section {
+  margin-bottom: 50px;
+}
+.skills-cont {
+  font-size: 20px;
+}
+.course h1 {
+  margin-bottom: 4px;
+}
+.resume-body-left-cont {
+  width: 40%;
+  border-right: 2px solid gray;
+}
+.resume-body-content {
+  display: flex;
+}
+.resume-body-right-cont {
+  width: 70%;
+}
+.resume-body-right {
+  margin-left: 30px;
+}
+.about-details{
+    text-align: justify;
+}
+@media (max-width: 850px) {
+  .resume-body-content {
+    display: block;
+  }
+  .resume-body-left-cont {
+    width: 100%;
+    border-right: none;
+  }
+  .resume-body-right-cont {
+    width: 100%;
+  }
+}
